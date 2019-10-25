@@ -1,14 +1,4 @@
 public class TripleSDES {
-
-	/*
-	public static void main(String[] args) {
-		
-		System.out.println("Raw Key 1" + "     " + "Raw Key" + "   " + "Plaintext" + "   " + "Ciphertext" );
- 
-		Encryption();
-		Decryption();
-		
-	}*/	
 	
 	public void start() {
 		Encryption();
