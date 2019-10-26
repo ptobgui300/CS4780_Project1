@@ -64,9 +64,9 @@ public class SDES {
 		for(int i = 0; i < 4; i++) {
 			plaintext[i] = SDES.Decrypt(key[i], ciphertext[i]);
 			printArray(key[i]);
-			System.out.print("       ");
+			System.out.print("      ");
 			printArray(plaintext[i]);
-			System.out.print("       ");
+			System.out.print("        ");
 			printArray(ciphertext[i]);
 			System.out.println();
 		}
